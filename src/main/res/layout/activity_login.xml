@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userName"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_custom"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="369dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_custom"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textColorLink="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/adm1"
+        android:layout_width="365dp"
+        android:layout_height="50dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/btn_custom"
+        android:text="admin"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textColorLink="@android:color/holo_red_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginBottom="4dp"
+        android:text="Login"
+        android:textColor="#F3D681"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/registerLink"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+
+
+        android:layout_below="@+id/ForgetPassword"
+        android:layout_alignParentEnd="true"
+android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="160dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="No Account? Create One?"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ForgetPassword"
+        android:layout_width="166dp"
+        android:layout_height="30dp"
+
+
+
+
+        android:layout_below="@+id/login_btn"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="129dp"
+android:layout_centerHorizontal="true"
+      android:gravity="center"
+        android:text="Need help?"
+
+        android:textColor="@android:color/white"
+
+        android:textSize="18sp" />
+
+</RelativeLayout>

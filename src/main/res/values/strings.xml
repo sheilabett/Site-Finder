@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Sites</string>
+    <string name="search_map_hint">Search Address, City or ZipCode</string>
+    <string name="address_of_place">Address of Site</string>
+    <string name="name_of_place">Name of Site</string>
+    <string name="business_status">Attraction Site Status</string>
+    <string name="ACESS_FINE_LOCATION">Acess Location</string>
+    <string name="is_open">Is Open</string>
+    <string name="go">Go</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="google_maps_api_key">AIzaSyB9NOnBesNvahbHDqq6Ocspmh4pbIRUCPQ</string>
+    <string name="str_tv_distance_time">Distance</string>
+
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Sign in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with us</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+
+    <string name="tap_to_rate">Tap to Rate</string>
+    <string name="detail_direction">Tap to view direction</string>
+    <string name="detail_phone">0708654469</string>
+    <string name="detail_location">Nyeri</string>
+    <string name="detail_email">Attrationsites@gmail.com</string>
+    <string name="title_activity_get__direct">Map</string>
+
+</resources>

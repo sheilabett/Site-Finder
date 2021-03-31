@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#091030">
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="353dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_custom"
+        android:text="Submit"
+        android:layout_marginBottom="0dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/holo_red_dark"
+        android:textColorLink="@android:color/holo_red_dark"
+
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="352dp"
+        android:layout_height="55dp"
+        android:layout_above="@id/feedback"
+        android:gravity="center"
+        android:background="@drawable/et_custom"
+        android:hint="Name"
+        android:layout_centerInParent="true"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+       />
+
+    <EditText
+        android:id="@+id/feedback"
+        android:layout_width="352dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_custom"
+
+        android:hint="feedback"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:maxLines="10"
+        android:minLines="6"
+        android:padding="15dp"
+        android:scrollbars="vertical"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="15sp"
+       />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Feedback"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="36sp"
+        />
+
+</RelativeLayout>
